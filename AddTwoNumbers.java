@@ -1,3 +1,17 @@
+// ----------------------------------------------------------------------
+// AddTwoNumbers components
+// ----------------------------------------------------------------------
+ 
+/**
+* Artifact factory.
+*
+* @component
+*/
+
+// ----------------------------------------------------------------------
+// Public methods
+// ---------------------------------------------------------------------- 
+
 public class AddTwoNumbers {
     public static void main(String[] args) {
         float num1 = (float) 1.8;   // The "(float)" "casts" the number as a single precision number
