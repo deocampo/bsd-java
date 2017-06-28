@@ -18,7 +18,7 @@ public class WrapperExamples {
 		// Boolean,Byte,Character,Double,Float,Integer,Long,Short
 		// boolean,byte,char ,double,float,int ,long,short
 
-		// Wrapper classes are final
+		// Wrapper classes are final. This guarantees immutability
 
 		Integer number = new Integer(55);// int
 
@@ -45,7 +45,10 @@ public class WrapperExamples {
 
 		b = false;
 
-		// Wrapper Objects are immutable (like String)
+		// Wrapper Objects are immutable (like String) wrapper types 
+                // need to be immutable to ensure uniform capabilities across 
+                // all instances; immutablility being an important part of 
+                // their known properties.
 
 		int i = 5;
 		i = 6;
@@ -65,17 +68,24 @@ public class WrapperExamples {
 		//#########
 
 		// valueOfMethods
-		// Provide another way of creating a Wrapper Object
-		Integer seven = Integer.valueOf("111", 2);// binary 111 is converted to
-													// 7
+	        // Provide another way of creating a Wrapper Object and has
+                // three forms:
+                // 1. Takes primitive type as an argument
+                // 2. Takes String type as an argument
+                // 3. Takes two arguments. One is String type and 
+                //    second is int type (base of numeric value)
 
-		Integer hundred = Integer.valueOf("100", 10);// 100 is stored in
-														// variable
+
+		Integer seven = Integer.valueOf("111", 2);
+                // binary 111 isi converted to 7 
+
+		Integer hundred = Integer.valueOf("100", 10);
+                // 100 is stored in variable
 
 		// xxxValue methods help in creating primitives
 		//Integer integer = Integer.valueOf(57);
-		int primitive = seven.intValue();// 57
-		float primitiveFloat = seven.floatValue();// 57.0f
+		int primitive = seven.intValue();          // 57
+		float primitiveFloat = seven.floatValue(); // 57.0f
 
 		Float floatWrapper = Float.valueOf(57.0f);
 		int floatToInt = floatWrapper.intValue();// 57
@@ -83,34 +93,38 @@ public class WrapperExamples {
 
 		// parseXxx methods are similar to valueOf but they
 		// return primitive values
-		int sevenPrimitive = Integer.parseInt("111", 2);// binary 111 is
-														// converted to 7
+		int sevenPrimitive = Integer.parseInt("111", 2);
+                // binary 111 is converted to 7
 
-		int hundredPrimitive = Integer.parseInt("100");// 100 is stored in
-														// variable
+		int hundredPrimitive = Integer.parseInt("100");
+                // 100 is stored in variable
 
 		//Creates new Integer object
 		Integer wrapperEight = new Integer(8);
 
 		// Normal static toString method
-		System.out.println(Integer.toString(wrapperEight));// String Output : 8
+		System.out.println(Integer.toString(wrapperEight));
+                // String Output : 8
 
 		// Overloaded static toString method : 2nd parameter : radix
-		System.out.println(Integer.toString(wrapperEight, 2));// String Output :
-																// 1000
+		System.out.println(Integer.toString(wrapperEight, 2));
+                // String Output : 1000
 
 		// static toXxxString methods. Xxx can be Hex,Binary,Octal
-		System.out.println(Integer.toHexString(wrapperEight));// String Output
-																// :8
-		System.out.println(Integer.toBinaryString(wrapperEight));// String
-																	// Output
-																	// :1000
-		System.out.println(Integer.toOctalString(wrapperEight));// String Output
-																// :10
+		System.out.println(Integer.toHexString(wrapperEight));
+                // String Output :8
 
-		// Auto Boxing
+		System.out.println(Integer.toBinaryString(wrapperEight));
+                // String Output :1000
+
+		System.out.println(Integer.toOctalString(wrapperEight));
+                // String Output :10
+
+		// Auto Boxing: automatic conversion between the primitives 
+                // and their corresponding object wrapper classes
 		Integer ten = new Integer(10);
-		ten++;// allowed. Java does had work behing the screen for us
+		ten++;
+                // allowed. Java does had work behing the scene for us
 
 		// Two wrapper objects created using new are not same object
 		Integer nineA = new Integer(9);
