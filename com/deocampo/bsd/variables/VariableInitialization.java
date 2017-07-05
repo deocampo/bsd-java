@@ -1,4 +1,4 @@
-package com.deocampo.bsd.basic;
+package com.deocampo.bsd.variables;
 // ----------------------------------------------------------------------
 // VariableInitialization components
 // ----------------------------------------------------------------------
