@@ -1,5 +1,6 @@
+package com.deocampo.bsd.basic;
 // ----------------------------------------------------------------------
-// Echo components
+// Count components
 // ----------------------------------------------------------------------
 
 /**
@@ -12,10 +13,15 @@
 // Public methods
 // ----------------------------------------------------------------------
 
-public class Echo {
-    public static void main (String[] args) {
-        for (String s: args) {
-            System.out.println(s);
-        }
+class Count {
+    public static void main(String[] args)
+        throws java.io.IOException
+    {
+        int count = 0;
+
+        while (System.in.read() != -1)
+            count++;
+        System.out.println("Input has " + count + " chars.");
     }
 }
+
