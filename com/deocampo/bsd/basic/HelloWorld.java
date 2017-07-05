@@ -1,5 +1,6 @@
+package com.deocampo.bsd.basic;
 // ----------------------------------------------------------------------
-// Count components
+// HelloWorld components
 // ----------------------------------------------------------------------
 
 /**
@@ -12,15 +13,11 @@
 // Public methods
 // ----------------------------------------------------------------------
 
-class Count {
-    public static void main(String[] args)
-        throws java.io.IOException
-    {
-        int count = 0;
-
-        while (System.in.read() != -1)
-            count++;
-        System.out.println("Input has " + count + " chars.");
+public class HelloWorld {
+    public static void main( String[] args ) {
+        System.out.println( "Hello World!" );
+	System.out.println( "Changed from GitHub!");
+        System.exit( 0 ); //success
     }
 }
 
