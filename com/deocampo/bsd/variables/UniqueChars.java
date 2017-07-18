@@ -11,6 +11,8 @@ package com.deocampo.bsd.variables;
  
  
 public class UniqueChars {
+	
+	// method 1 for checking unique characters
 	public static boolean isUniqueChars(String str) {
 		if(str.length() > 256) return false;
 		int checker = 0;
@@ -21,7 +23,9 @@ public class UniqueChars {
 		}
 		return true;
 	}
+
 	
+	// method 2 for checking unique characters
 	public static boolean isUniqueChars2(String str) {
 		if(str.length() > 256) return false;
 		boolean[] char_set = new boolean[256];
@@ -34,7 +38,7 @@ public class UniqueChars {
 	}
 	
 	public static void main(String[] args) {
-		String[] words = {"abcde", "hello", "apple", "kite", "padle"};
+		String[] words = {"uvxyz", "bannana", "welcome", "basket", "river boat"};
 		for(String word : words) {
 			System.out.println(word + ": " + isUniqueChars(word) + " " + isUniqueChars2(word));
 		}
