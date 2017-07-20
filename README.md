@@ -1,7 +1,6 @@
 # Barebones Software in Java
 
-Reference sites for the content in thei project:
-- [Basic Variables](https://github.com/ggpaue/CrackingTheCodingInterview)
+[Reference site](https://github.com/ggpaue/CrackingTheCodingInterview) for the content in this project.
 
 Outline of Topics:
 1. Data Structures
