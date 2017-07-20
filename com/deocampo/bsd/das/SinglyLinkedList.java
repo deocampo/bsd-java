@@ -1,4 +1,4 @@
-package com.deocampo.bsd.variables;
+package com.deocampo.bsd.das;
 
 // ----------------------------------------------------------------------
 // SinglyLinkedList components
