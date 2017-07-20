@@ -4,7 +4,7 @@
 
 Outline of Topics:
 
-1. [Data Structures](http://www.sanfoundry.com/java-programming-examples-data-structures/)(com.deocampo.bsd.das)
+1. [Data Structures](http://www.sanfoundry.com/java-programming-examples-data-structures/) (com.deocampo.bsd.das)
 - Linked Lists
 - Trees, Tries & Graphs
 - Stacks & Queues
