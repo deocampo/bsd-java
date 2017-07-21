@@ -1,6 +1,7 @@
 package com.deocampo.bsd.das;
 
 // ----------------------------------------------------------------------
+//
 // SinglyLinkedList components
 //
 // Mostly from http://www.sanfoundry.com/java-program-implement-singly-linked-list/
@@ -13,11 +14,6 @@ package com.deocampo.bsd.das;
 * @component
 */
 
-// ----------------------------------------------------------------------
-// Public methods
-// ----------------------------------------------------------------------
-
-     
 import java.util.Scanner;
 import com.deocampo.bsd.das._Node;
 import com.deocampo.bsd.das._LinkedList;

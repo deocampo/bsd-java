@@ -4,8 +4,6 @@ import com.deocampo.bsd.das._Node;
 
 public class _LinkedList {
 
-
-
     protected _Node start;
     protected _Node end ;
     public int size;

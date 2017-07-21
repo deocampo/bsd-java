@@ -1,6 +1,7 @@
 package com.deocampo.bsd.das;
 
 //----------------------------------------------------------------------
+//
 //BoublyLinkedList components
 //
 //Mostly from http://www.sanfoundry.com/
@@ -13,11 +14,6 @@ package com.deocampo.bsd.das;
 * @component
 */
 
-//----------------------------------------------------------------------
-//Public methods
-//----------------------------------------------------------------------
-
-  
 import java.util.Scanner;
 import com.deocampo.bsd.das._Node;
 import com.deocampo.bsd.das._LinkedList;
