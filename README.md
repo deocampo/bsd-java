@@ -12,7 +12,7 @@ Outline of Topics:
 - Vectors/ArrayLists
 - Hash Tables
 
-2. Algorithms
+2. [Algorithms](http://www.sanfoundry.com/1000-java-algorithms-problems-programming-examples/)(com.deocampo.bsd.alg)
 - Breadth-First Search
 - Depth-First Search
 - Binary Search
