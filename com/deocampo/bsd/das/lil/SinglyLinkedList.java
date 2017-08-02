@@ -1,4 +1,4 @@
-package com.deocampo.bsd.das;
+package com.deocampo.bsd.das.lil;
 
 // ----------------------------------------------------------------------
 //
@@ -15,10 +15,8 @@ package com.deocampo.bsd.das;
 */
 
 import java.util.Scanner;
-import com.deocampo.bsd.das._Node;
-import com.deocampo.bsd.das._LinkedList;
-     
 
+import com.deocampo.bsd.das.lil._LinkedList;
 
 
     /*  Class SinglyLinkedList  */
@@ -147,9 +145,9 @@ import com.deocampo.bsd.das._LinkedList;
 
                 ch = scan.next().charAt(0);                        
 
-            } while (ch == 'Y'|| ch == 'y');               
-
+            } while (ch == 'Y'|| ch == 'y');    
+            
+            scan.close();
         }
-
     }
 

@@ -1,4 +1,4 @@
-package com.deocampo.bsd.das;
+package com.deocampo.bsd.das.lil;
 
 //----------------------------------------------------------------------
 //
@@ -15,8 +15,9 @@ package com.deocampo.bsd.das;
 */
 
 import java.util.Scanner;
-import com.deocampo.bsd.das._Node;
-import com.deocampo.bsd.das._LinkedList;
+
+import com.deocampo.bsd.das.lil._LinkedList;
+
 
 public class DoublyLinkedList {
     public static void main(String[] args)
@@ -81,6 +82,9 @@ public class DoublyLinkedList {
             System.out.println("\nDo you want to continue (Type y or n) \n");
             ch = scan.next().charAt(0);    
  
-        } while (ch == 'Y'|| ch == 'y');               
+        } while (ch == 'Y'|| ch == 'y');    
+        
+        scan.close();
+        
     }
 }

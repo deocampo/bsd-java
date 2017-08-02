@@ -1,6 +1,6 @@
-package com.deocampo.bsd.das;
+package com.deocampo.bsd.das.lil;
 
-import com.deocampo.bsd.das._Node;
+import com.deocampo.bsd.das.lil._Node;
 
 public class _LinkedList {
 
