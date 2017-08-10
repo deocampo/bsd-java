@@ -19,7 +19,7 @@ import java.util.Scanner;
 import com.deocampo.bsd.das.lil._LinkedList;
 
 
-public class DoublyLinkedList {
+public class DoublyLinkedListImpl {
     public static void main(String[] args)
     {            
         Scanner scan = new Scanner(System.in);

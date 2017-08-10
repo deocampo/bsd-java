@@ -3,7 +3,7 @@ package com.deocampo.bsd.das.stk;
 import java.util.*;
 import com.deocampo.bsd.das.stk.ArrayStack;
 
-public class StackImplement {
+public class StackImpl {
 
 	   public static void main(String[] args)
 	    {
