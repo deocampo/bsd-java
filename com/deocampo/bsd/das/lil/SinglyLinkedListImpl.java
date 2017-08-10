@@ -21,7 +21,7 @@ import com.deocampo.bsd.das.lil._LinkedList;
 
     /*  Class SinglyLinkedList  */
 
-    public class SinglyLinkedList
+    public class SinglyLinkedListImpl
 
     {    
 
